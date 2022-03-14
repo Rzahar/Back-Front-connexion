@@ -20,15 +20,13 @@ public class User {
     public User() {
     }
 
-    public User(long id, String firstName, String lastName, String email) {
-        this.id = id;
+    public User(String firstName, String lastName, String email) {
+        super();
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
     }
 
-    public User(String toto, String tata, String email) {
-    }
 
     public long getId() {
         return id;
